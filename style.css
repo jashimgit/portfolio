@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,400&display=swap");
+
+body {
+    background-color: #fbf4ff !important;
+    font-family: "Lato", sans-serif;
+}
+
+.myNavbar {
+    background-color: #2a2135 !important;
+    border-bottom: 5px solid #b4aaff;
+}
+
+.myNavbar .nav-link {
+    color: #fff !important;
+    font-size: 20px;
+}
+.myNavbar .nav-link:hover {
+    color: tomato !important;
+}
+.header-description {
+    font-weight: 400;
+}
+.header-img img {
+    height: 74%;
+    width: 50%;
+    border-radius: 65%;
+    object-fit: cover;
+    object-position: center center;
+}
+.header-icon ion-icon,
+.footer-right ion-icon {
+    font-size: 40px;
+    color: #b4b7b8;
+}
+.header-icon ion-icon:hover,
+.footer-right ion-icon:hover {
+    color: tomato;
+}
+
+.experience-item {
+    border-left: 1px solid gray;
+}
+.experience-item:nth-child(1) {
+    border: none;
+}
+
+
+footer {
+    background-color: #2a2135 !important;
+    border-top: 5px solid #b4aaff;
+}
+.footer-left {
+    color: #fff !important;
+}
+
+.footer-left p {
+    margin-bottom: 0;
+}
+.footer-right a {
+    padding-right: 5px;
+}
