@@ -106,7 +106,7 @@
         </div>
         <div class="row justify-content-center">
             <div class="col-md-4">
-                <div class="card mb-3 h-100">
+                <div class="card mb-3 h-100 shadow">
                     <img src="./assets/img/clean-service1.jpg" alt="..." class="w-100 img-fluid" />
                     <div class="card-body">
                         <h5 class="card-title">Clearning Service</h5>
@@ -120,7 +120,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card mb-3 h-100">
+                <div class="card mb-3 h-100 shadow">
                     <img src="./assets/img/fd-lockbd.jpg" alt="..." class="w-100 img-fluid" />
 
                     <div class="card-body">
@@ -134,7 +134,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card mb-3 h-100">
+                <div class="card mb-3 h-100 shadow">
                     <img src="./assets/img/apple-bookstore.jpg" alt="..." class="w-100 img-fluid" />
 
                     <div class="card-body">
