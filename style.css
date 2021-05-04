@@ -27,6 +27,7 @@ body {
     object-fit: cover;
     object-position: center center;
 }
+
 .header-icon ion-icon,
 .footer-right ion-icon {
     font-size: 40px;
@@ -43,7 +44,10 @@ body {
 .experience-item:nth-child(1) {
     border: none;
 }
-
+.fas {
+    padding-right: 5px;
+    color: #1be725;
+}
 
 footer {
     background-color: #2a2135 !important;

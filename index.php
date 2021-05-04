@@ -10,6 +10,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
     <!-- custom css -->
     <link rel="stylesheet" href="style.css" />
     <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
@@ -68,7 +70,7 @@
                 <!-- // .header-intro -->
             </div>
             <div class="offset-md-2 text-center col-md-5 header-img">
-                <img src="./assets/img/jashim.jpg" alt="" class="img-rounded img-fluid" />
+                <img src="./assets/img/jashim.png" alt="" class="img-rounded img-fluid" />
             </div>
         </div>
         <!-- // end  header introduction -->
@@ -205,17 +207,23 @@
                         <div class="card-body">
                             <div class="pb-2">
                                 <h3>Mail</h3>
-                                <p>jashim.ncn@gmail.com</p>
+                                <p>
+                                    <ion-icon name="mail-outline" style="font-size: 1rem; color: tomato;"></ion-icon> jashim.ncn@gmail.com
+                                </p>
                             </div>
                             <div class="pb-2">
                                 <h3>Location</h3>
                                 <address>
-                                    <p>Chittagong, Bangladesh</p>
+                                    <p>
+                                        <ion-icon name="location-outline" style="font-size: 1rem; color: tomato;"></ion-icon> Chittagong, Bangladesh
+                                    </p>
                                 </address>
                             </div>
                             <div class="pb-2">
                                 <h3>Phone</h3>
-                                <p>+88 0177 444 1920</p>
+                                <p>
+                                    <ion-icon name="call-outline" style="font-size: 1rem; color: tomato;"></ion-icon> +88 0177 444 1920
+                                </p>
                             </div>
                             <div class="header-icon pt-4">
                                 <a href="http://github.com/jashimgit" target="_blank">
@@ -276,10 +284,10 @@
                     <div class="col-12">
                         <h4 class="mt-3">Clean Service Website</h4>
                         <ul>
-                            <li>Designed and developed Features.</li>
+                            <li>Designed and developed Frontend & Backend Features.</li>
+                            <li>Admin can check orders and change the status of their order.</li>
                             <li>
-                                Administrative access and User based access
-                                developed with Firebase.
+                                Administrative access and User based access developed with Firebase.
                             </li>
                             <li>
                                 Deployment and Debugging error both client
@@ -294,29 +302,37 @@
                     <div class="col-12">
                         <h4>Clean Service Website</h4>
                         <ul>
-                            <li>Modified Frontend application.</li>
+                            <li>User experience based development.</li>
                             <li>
-                                Created Backend development as per client
-                                instruction.
+                                Learned Deployment on Heroku, Firebase Hosting
                             </li>
-                            <li>Multiple category based mini e-commerce</li>
+                            <li>How to authenticate a user.</li>
+                            <li>How to manage a self-service project.</li>
+                            <li>Overcome issues during development and deployment phase.</li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="col experience-item">
+            <div class="col  experience-item">
                 <h2 style="border-bottom: 2px solid #d18888">Skills</h2>
                 <div class="skills">
                     <h4 class="mt-3">Proficient With</h4>
-                    <p class="">PHP, MySQL, Codeigniter</p>
+                    <p class="">
+                        <i class="fas fa-check"></i>PHP, <i class="fas fa-check"></i>MySQL, <i class="fas fa-check"></i>Codeigniter
+                    </p>
                     <h4>Experienced With</h4>
                     <p class="">
-                        JavaScript, React, Node, Express, Firebase, MongoDB
+                        <i class="fas fa-check"></i>JavaScript,
+                        <i class="fas fa-check"></i>React,
+                        <i class="fas fa-check"></i>Node,
+                        <i class="fas fa-check"></i>Express,
+                        <i class="fas fa-check"></i>Firebase,
+                        <i class="fas fa-check"></i>MongoDB
                     </p>
                     <h4>Familiar With</h4>
                     <p class="">
-                        Ruby, Ruby on Rails, PostgreSQL,Heroku, Firebase
-                        Hosting, Netlify
+                        <i class="fas fa-check"></i> Ruby, <i class="fas fa-check"></i>Ruby on Rails, <i class="fas fa-check"></i>PostgreSQL,<i class="fas fa-check"></i>Heroku, <i class="fas fa-check"></i>Firebase
+                        Hosting, <i class="fas fa-check"></i>Netlify
                     </p>
                     <h4>Additional Skills</h4>
                     <ul>
